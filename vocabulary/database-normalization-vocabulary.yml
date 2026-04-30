@@ -1,0 +1,93 @@
+name: Database Normalization Vocabulary
+description: >-
+  Vocabulary of relational normalization concepts including normal forms,
+  dependencies, and anomalies.
+terms:
+  - term: Normalization
+    definition: >-
+      The systematic decomposition of a relational schema to eliminate
+      redundancy and dependency anomalies.
+  - term: Denormalization
+    definition: >-
+      The intentional violation of normal forms to improve read
+      performance, typical in analytical schemas.
+  - term: Functional Dependency
+    definition: >-
+      A constraint X -> Y stating that Y is determined by X within a
+      relation.
+  - term: Multi-Valued Dependency
+    definition: >-
+      A dependency X ->> Y indicating that for each X there is a set of
+      Y values independent of other attributes.
+  - term: Join Dependency
+    definition: >-
+      A dependency expressing that a relation can be losslessly
+      decomposed into multiple projections that join back to the
+      original.
+  - term: Candidate Key
+    definition: >-
+      A minimal set of attributes that uniquely identifies each tuple
+      in a relation.
+  - term: Primary Key
+    definition: >-
+      The candidate key chosen as the principal identifier for a
+      relation.
+  - term: Superkey
+    definition: >-
+      Any set of attributes that uniquely identifies tuples, possibly
+      with redundant attributes.
+  - term: Prime Attribute
+    definition: >-
+      An attribute that participates in at least one candidate key.
+  - term: First Normal Form (1NF)
+    definition: >-
+      A relation in which every attribute holds atomic values and
+      there are no repeating groups.
+  - term: Second Normal Form (2NF)
+    definition: >-
+      A 1NF relation in which every non-prime attribute is fully
+      functionally dependent on every candidate key.
+  - term: Third Normal Form (3NF)
+    definition: >-
+      A 2NF relation in which no non-prime attribute transitively
+      depends on a candidate key.
+  - term: Boyce-Codd Normal Form (BCNF)
+    definition: >-
+      A relation in which every non-trivial functional dependency has
+      a superkey on the left side.
+  - term: Fourth Normal Form (4NF)
+    definition: >-
+      A BCNF relation with no non-trivial multi-valued dependencies
+      other than candidate keys.
+  - term: Fifth Normal Form (5NF)
+    definition: >-
+      A 4NF relation with no join dependencies other than those
+      implied by candidate keys.
+  - term: Sixth Normal Form (6NF)
+    definition: >-
+      A relation that cannot be further decomposed without loss,
+      relevant in temporal database design.
+  - term: Domain-Key Normal Form
+    definition: >-
+      A normal form requiring that every constraint follow from
+      domain and key constraints, eliminating all anomalies.
+  - term: Update Anomaly
+    definition: >-
+      Inconsistent data resulting from updating one copy of a
+      duplicated value while leaving others unchanged.
+  - term: Insertion Anomaly
+    definition: >-
+      The inability to insert a fact without simultaneously providing
+      unrelated information.
+  - term: Deletion Anomaly
+    definition: >-
+      The unintended loss of information caused by deleting a row
+      that contains data needed elsewhere.
+  - term: Lossless Decomposition
+    definition: >-
+      A decomposition such that the original relation can be
+      reconstructed by joining the projections.
+  - term: Dependency Preservation
+    definition: >-
+      A property of decomposition that preserves the original
+      functional dependencies on the decomposed schemas.
