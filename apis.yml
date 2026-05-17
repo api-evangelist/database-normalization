@@ -6,8 +6,7 @@ description: >-
   anomalies. It is governed by Codd's normal forms (1NF through 6NF) and
   the Boyce-Codd Normal Form, and is the foundation of relational design,
   taught in academic curricula and applied across all major SQL databases.
-type: Topic
-xType: topic
+kind: topic
 position: Consumer
 access: 3rd-Party
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
