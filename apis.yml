@@ -69,7 +69,7 @@ common:
     description: E.F. Codd's foundational paper on the relational model.
   - url: https://www.iso.org/standard/76583.html
     name: ISO/IEC 9075 (SQL)
-    type: Standard
+    type: Standards
     description: ISO standard for SQL, the language used to implement normalized schemas.
   - url: vocabulary/database-normalization-vocabulary.yml
     name: Vocabulary
