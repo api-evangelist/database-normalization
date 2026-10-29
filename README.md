@@ -1,4 +1,4 @@
-# Database Normalization (database-normalization)
+# database-normalization
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,55 +64,22 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Database Normalization is the formal process of structuring relational schemas to reduce redundancy and avoid update, insert, and delete anomalies. It is governed by Codd's normal forms (1NF through 6NF) and the Boyce-Codd Normal Form, and is the foundation of relational design, taught in academic curricula and applied across all major SQL databases.
+## database-normalization on APIs.io
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/database-normalization/refs/heads/main/apis.yml)
+Everything profiled for database-normalization is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/database-normalization/](https://apis.io/providers/database-normalization/)** — or go straight to one of the APIs or properties below.
 
-## Scope
+## API Evangelist rating
 
-- **Type:** Topic
-- **Position:** Consumer
-- **Access:** 3rd-Party
+Not yet rated. See [apis.io/providers/database-normalization/](https://apis.io/providers/database-normalization/).
 
-## Tags
+## How this profile is made
 
-- Database Design
-- Database Normalization
-- Normal Forms
-- Relational Theory
-- Schema Design
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-## Timestamps
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for database-normalization: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-- **Created:** 2025-01-01
-- **Modified:** 2026-04-30
+## Open an issue
 
-## Common Resources
-
-### Foundations
-
-- [Wikipedia](https://en.wikipedia.org/wiki/Database_normalization)
-- [Codd 1970 Paper](https://www.acm.org/binaries/content/assets/publications/computing-classics/codd-relational-model.pdf)
-- [Functional Dependency](https://en.wikipedia.org/wiki/Functional_dependency)
-- [ISO/IEC 9075 (SQL)](https://www.iso.org/standard/76583.html)
-
-### Normal Forms
-
-- [First Normal Form](https://en.wikipedia.org/wiki/First_normal_form)
-- [Second Normal Form](https://en.wikipedia.org/wiki/Second_normal_form)
-- [Third Normal Form](https://en.wikipedia.org/wiki/Third_normal_form)
-- [Boyce-Codd Normal Form](https://en.wikipedia.org/wiki/Boyce%E2%80%93Codd_normal_form)
-- [Fourth Normal Form](https://en.wikipedia.org/wiki/Fourth_normal_form)
-- [Fifth Normal Form](https://en.wikipedia.org/wiki/Fifth_normal_form)
-- [Sixth Normal Form](https://en.wikipedia.org/wiki/Sixth_normal_form)
-- [Domain-Key Normal Form](https://en.wikipedia.org/wiki/Domain-key_normal_form)
-
-### Reference
-
-- [Vocabulary](vocabulary/database-normalization-vocabulary.yml)
-
-## Maintainers
-
-**FN:** Kin Lane
-
-**Email:** kin@apievangelist.com
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/database-normalization/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
